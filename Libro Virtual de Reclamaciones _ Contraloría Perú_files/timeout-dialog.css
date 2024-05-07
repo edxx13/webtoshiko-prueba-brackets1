@@ -1,0 +1,9 @@
+.timeout-dialog{padding:15px; position:absolute; background:#eee url("../img/timeout-icon.png") no-repeat 15px 25px; border:1px solid #fff; -webkit-box-shadow:0 0px 5px rgba(0,0,0,0.5); -moz-box-shadow:0 0px 5px rgba(0,0,0,0.5); box-shadow:0 0px 5px rgba(0,0,0,0.5); -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px}
+.timeout-dialog .ui-dialog-title{font-size:16px; font-weight:bold; display:block; padding:0 0 15px 0; margin-left:80px}
+.timeout-dialog .ui-dialog-titlebar-close{display:none}
+.timeout-dialog .ui-dialog-buttonpane{margin-top:15px}
+.timeout-dialog ~ .ui-widget-overlay{position:absolute; top:0; left:0; background-color:#000; filter:alpha(opacity=40); -khtml-opacity:0.4; -moz-opacity:0.4; opacity:0.4}
+.timeout-dialog p{margin:0 0 5px 80px}
+#timeout-keep-signin-btn{color:#FFF; background-color:#0f5895; background-repeat:repeat-x; color:#fff; text-shadow:none; margin:5px 10px 5px 0; background-image:linear-gradient(top,#377bb2,#0f5895)}
+#timeout-sign-out-button{color:#FFF; background-color:#e6e6e6; background-repeat:repeat-x; color:#000; text-shadow:none; margin:5px 0; background-image:linear-gradient(top,#fff,#e6e6e6)}
+#timeout-countdown{font-weight:bold}
